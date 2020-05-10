@@ -6,14 +6,22 @@ Getting and Cleaning Data Course Project
 Explanation :
 
 Create a directory (if not already exist)
+
 save the ZIP File
+
 extract File
+
 Create dataFrame with the différents file from the Extract ZIP
+
 Merge the differents dataFrame for make one dataframe
+
 rename col
+
 create a new file tidydata.txt
 
+
 Select the col for create a second tidy data set with the average of each variable for each activity and each subject
+
 create a new file tidydataAV.txt
 
 
