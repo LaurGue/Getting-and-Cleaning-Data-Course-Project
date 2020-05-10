@@ -18,16 +18,3 @@ df_yDataF <- dataFrame factor of Activity names
 dataSet <- dataframe with the measurements on the mean and standard deviation for each measurement
 index <- vector for extract the mean / Standard deviation / subject / Activity
 secondDataSet <- second tidy data set with the average of each variable for each activity and each subject
-
-Explanation :
-
-Create a directory (if not already exist)
-save the ZIP File
-extract File
-Create dataFrame with the différents file from the Extract ZIP
-Merge the differents dataFrame for make one dataframe
-rename col
-create a new file tidydata.txt
-
-Select the col for create a second tidy data set with the average of each variable for each activity and each subject
-create a new file tidydataAV.txt
