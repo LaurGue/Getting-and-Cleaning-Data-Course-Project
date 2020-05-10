@@ -72,10 +72,12 @@ names(dataSet)<-gsub("Gyro", "Gyroscope", names(dataSet))
 names(dataSet)<-gsub("Mag", "Magnitude", names(dataSet))
 names(dataSet)<-gsub("BodyBody", "Body", names(dataSet))
 
+write.table(dataSet, file = "tidydata.txt",row.name=FALSE)
+
 # Create a second, independent tidy data set with the average of each variable for each activity and each subject
 secondDataSet<-aggregate(. ~subject + activity, dataSet, mean)
 secondDataSet<-secondDataSet[order(secondDataSet$subject,secondDataSet$activity),]
 
 # Save this tidy dataset to local file
-write.table(secondDataSet, file = "tidydata.txt",row.name=FALSE)
+write.table(secondDataSet, file = "tidydataAv.txt",row.name=FALSE)
 
