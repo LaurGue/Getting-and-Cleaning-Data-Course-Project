@@ -32,4 +32,5 @@ df_yDataF <- dataFrame factor of Activity names
 dataSet <- dataframe with the measurements on the mean and standard deviation for each measurement
 
 index <- vector for extract the mean / Standard deviation / subject / Activity
+
 secondDataSet <- second tidy data set with the average of each variable for each activity and each subject
