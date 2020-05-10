@@ -1,4 +1,4 @@
-#Nun_analysis.R
+#run_analysis.R
 #Laurent GUERET
 #Getting and Cleaning Data
 # May 2020
