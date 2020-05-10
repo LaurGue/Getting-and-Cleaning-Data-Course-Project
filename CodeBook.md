@@ -1,5 +1,5 @@
 Variables :
-
+ 
 urlFile <- Link tro the ZIP File
 dateDownloaded <- Save the download date
 
